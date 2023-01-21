@@ -12,6 +12,7 @@
     /* BG colors */
     --primary-bg-cl: ;
     --secondary-bg-cl: ;
+    --light-bg-cl: #F4F4FD;
 }
 
 body {
@@ -59,4 +60,10 @@ background: #2E2F42;
 
 .button-text {
     color: #FFFFFF;
+}
+
+/* section 3 */
+
+.team {
+background: var(--light-bg-cl)
 }
