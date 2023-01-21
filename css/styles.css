@@ -22,8 +22,9 @@ sans-serif;
 
 /* reset styles */
 .link {
-    
+text-decoration: none;
 }
+    
 
 .logo {
 font-family: 'Raleway',
