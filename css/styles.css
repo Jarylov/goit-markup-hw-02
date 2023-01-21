@@ -72,7 +72,10 @@ background: #2E2F42;
 }
 
 .button-text {
-    color: var(--accent-txt-cl);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--accent-txt-cl);
 }
 
 /* section 3 */
