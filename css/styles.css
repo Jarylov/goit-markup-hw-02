@@ -12,8 +12,9 @@
     /* BG colors */
     --primary-bg-cl: ;
     --secondary-bg-cl: ;
-    --light-bg-cl: #F4F4FD;
+    --light-bg: #F4F4FD;
     --dark-bg: #2E2F42;
+    --hover-bt: #404BBF;
 }
 
 body {
@@ -60,6 +61,11 @@ background: #2E2F42;
     
 }
 
+.hero-batton:hover,
+.hero-batton:focus {
+    background-color: var(--hover-bt);
+}
+
 .button-text {
     color: #FFFFFF;
 }
@@ -67,7 +73,7 @@ background: #2E2F42;
 /* section 3 */
 
 .team {
-background: var(--light-bg-cl)
+background: var(--light-bg)
 }
 
 .card {
