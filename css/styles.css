@@ -44,7 +44,7 @@ font-family: 'Raleway',
 }
 
 /* Hero */
-.hero {
+.hero, .footer {
 background: #2E2F42;
 }
 .hero-title {
@@ -66,4 +66,18 @@ background: #2E2F42;
 
 .team {
 background: var(--light-bg-cl)
+}
+
+.card {
+    background: #FFFFFF;
+}
+
+/* footer */
+
+.logo-footer {
+    color: #F4F4FD;
+}
+
+.text-footer {
+    color: #E7E9FC;
 }
