@@ -13,6 +13,7 @@
     --primary-bg-cl: ;
     --secondary-bg-cl: ;
     --light-bg-cl: #F4F4FD;
+    --dark-bg: #2E2F42;
 }
 
 body {
@@ -25,6 +26,7 @@ sans-serif;
 .link {
 text-decoration: none;
 font-style: normal;
+color: #2E2F42;
 }
     
 
@@ -35,12 +37,12 @@ font-family: 'Raleway',
             font-weight: 800;
             font-size: 18px;
             line-height: 24px;
-            color: #4D5AE5;
+            color: var(--dark-bg);
         text-decoration: none;
 }
 
 .logo-header {
-    color: #2E2F42;
+    color: var(--dark-bg);
 }
 
 /* Hero */
