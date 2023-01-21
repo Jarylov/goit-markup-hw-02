@@ -11,7 +11,7 @@
 
     /* BG colors */
     --primary-bg-cl: ;
-    --secondary-bg-cl: ;
+    --secondary-bg-cl: #4D5AE5;
     --light-bg: #F4F4FD;
     --dark-bg: #2E2F42;
     --hover-bt: #404BBF;
@@ -29,6 +29,11 @@ text-decoration: none;
 font-style: normal;
 color: #2E2F42;
 }
+
+.link:active,
+.link:focus {
+    color: var(--hover-bt);
+}
     
 
 .logo {
@@ -38,7 +43,7 @@ font-family: 'Raleway',
             font-weight: 800;
             font-size: 18px;
             line-height: 24px;
-            color: var(--dark-bg);
+            color: var(--secondary-bg-cl);
         text-decoration: none;
 }
 
