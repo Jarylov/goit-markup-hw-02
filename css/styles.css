@@ -93,7 +93,19 @@ background: #2E2F42;
         color: var(--accent-txt-cl);
 }
 
-/* section 3 */
+/* section*/
+
+.title-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.title-three {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+}
 
 .team {
 background: var(--light-bg)
