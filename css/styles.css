@@ -64,6 +64,9 @@ font-family: 'Raleway',
 background: #2E2F42;
 }
 .hero-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
     color: #FFFFFF ;
 }
 
