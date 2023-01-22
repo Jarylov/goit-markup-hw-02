@@ -4,13 +4,12 @@
     --secondary-fonts: ;
 
     /* Text colors */
-    --primary-txt-cl: ;
+    --primary-txt-cl: #434455;
     --secondary-txt-cl: ;
     --accent-txt-cl: #FFFFFF;
-    --light-txt-cl: ;
+  
 
     /* BG colors */
-    --primary-bg-cl: ;
     --secondary-bg-cl: #4D5AE5;
     --light-bg: #F4F4FD;
     --dark-bg: #2E2F42;
@@ -20,7 +19,7 @@
 body {
 font-family: 'Roboto',
 sans-serif;
- color: #434455;
+ color: var(--primary-txt-cl);
 }
 
 /* reset styles */
