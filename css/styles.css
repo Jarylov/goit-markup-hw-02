@@ -23,6 +23,11 @@ sans-serif;
 }
 
 /* reset styles */
+
+ul {
+    list-style-type: none;
+}
+
 .link {
 text-decoration: none;
 font-style: normal;
