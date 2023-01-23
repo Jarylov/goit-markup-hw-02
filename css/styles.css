@@ -5,7 +5,7 @@
 
     /* Text colors */
     --primary-txt-cl: #434455;
-    --secondary-txt-cl: ;
+    --secondary-txt-cl: #2E2F42;
     --accent-txt-cl: #FFFFFF;
   
 
@@ -16,21 +16,22 @@
     --hover-bt: #404BBF;
 }
 
+/* reset styles */
+
+
+
 body {
 font-family: 'Roboto',
 sans-serif;
 font-size: 16px;
-line-height: 24px;
+line-height: calc(24 / 16);
 letter-spacing: 0.02em;
 color: var(--primary-txt-cl);
 }
 
-/* reset styles */
-
 .list {
 list-style-type: none;
 }
-
 .link {
 text-decoration: none;
 }
@@ -39,14 +40,14 @@ text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: calc(24 / 16);
 color: #2E2F42;
 }
 
 .contact {
 font-style: normal;
 font-size: 16px;
-line-height: 24px;
+line-height: calc(24 /16);
 color: #2E2F42;
 }
 
@@ -65,7 +66,7 @@ sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 24px;
+line-height: calc(24 / 18);
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--secondary-bg-cl);
@@ -81,15 +82,16 @@ background: #2E2F42;
 .hero-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 60px;
+        line-height: calc(60/56);
     color: #FFFFFF ;
 }
 
 .hero-batton {
     background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
     
 }
 
@@ -101,24 +103,32 @@ background: #2E2F42;
 .button-text {
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.04em;
         color: var(--accent-txt-cl);
 }
 
-/* section*/
+/* ======================= */
+          /* portfolio */
+/* ======================== */
+
 
 .title-two {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
+font-size: 36px;
+line-height: calc(40 / 36);
+text-transform: capitalize;
 }
 
 .title-three {
     font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: calc(24 / 20);
+        color: var(--secondary-txt-cl);
 }
 
+.text {
+    color: var(--primary-txt-cl);
+}
 .team {
 background: var(--light-bg)
 }
