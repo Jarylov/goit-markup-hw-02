@@ -51,9 +51,9 @@ line-height: calc(24 /16);
 color: #2E2F42;
 }
 
-.nav:active,
+.nav:hover,
 .nav:focus,
-.contact:active,
+.contact:hover,
 .contact:focus
  {
 color: var(--hover-bt);
@@ -86,27 +86,26 @@ background: #2E2F42;
     color: #FFFFFF ;
 }
 
-.hero-batton {
-    background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    cursor: pointer;
-    border: none;
-    
+.hero-btn {
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+border: none;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: calc(24 / 16);
+letter-spacing: 0.04em;
+color: var(--accent-txt-cl);  
 }
 
-.hero-batton:hover,
-.hero-batton:focus {
-    background-color: var(--hover-bt);
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: var(--hover-bt);
 }
 
-.button-text {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.04em;
-        color: var(--accent-txt-cl);
-}
+
 
 /* ======================= */
           /* portfolio */
@@ -156,13 +155,14 @@ background: #2E2F42;
 .filter-btn {
     background: var(--light-bg);
     color: var(--secondary-bg-cl);
+    font-family: 'Roboto';
     font-weight: 500;
-        font-size: 16px;
-        line-height: calc(24 / 16);
+    font-size: 16px;
+    line-height: calc(24 / 16);
     border: 1px solid #E7E9FC;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 4px;
-        cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .filter-btn:hover,
