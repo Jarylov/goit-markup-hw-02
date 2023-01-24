@@ -165,7 +165,7 @@ background: #2E2F42;
         cursor: pointer;
 }
 
-.filter-btn:active,
+.filter-btn:hover,
 .filter-btn:focus {
     background: var(--hover-bt);
     color: var(--accent-txt-cl);
